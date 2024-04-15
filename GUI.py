@@ -25,7 +25,7 @@ root.configure(bg='white')
 global logo_photo
 
 # load and display the application logo
-logo_path = "C:/Users/mnm4m/project/logo.jpg"
+logo_path = "logo.jpg"
 logo_image = Image.open(logo_path).resize((100, 100))
 logo_photo = ImageTk.PhotoImage(logo_image)
 logo_label = tk.Label(root, image=logo_photo, bg='white')
